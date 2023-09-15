@@ -33,14 +33,16 @@ public:
 
 	int getSize() { return _size; }
 
-	void insertHead(T);
+	LinkedList<T>* insertHead(T);
 	void print() const;
 };
 
 template <class T>
-void LinkedList<T>::insertHead(T item) {
+LinkedList<T>* LinkedList<T>::insertHead(T item) {
 	ListNode<T>* n = new ListNode<T>(item, _head);
-	_head = n;
+	_head = _head;
+	++_size;
+	return this;
 }
 
 template <class T>

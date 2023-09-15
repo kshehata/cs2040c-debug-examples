@@ -14,8 +14,11 @@ int factorial(int n) {
 }
 
 int main() {
-	LinkedList<int> list;
-	list.insertHead(9);
-	list.insertHead(17);
-	list.print();
+	LinkedList<int>* list = new LinkedList<int>();
+	list->insertHead(9)
+		->insertHead(17)
+		->insertHead(13)
+		->insertHead(42)
+		->insertHead(-1);
+	list->print();
 }
