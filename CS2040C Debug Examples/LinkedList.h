@@ -35,6 +35,7 @@ public:
 
 	LinkedList<T>* insertHead(T);
 	void print() const;
+	LinkedList<T>* remove(T);
 };
 
 template <class T>
@@ -52,6 +53,19 @@ void LinkedList<T>::print() const {
 		cout << n->_item << ", ";
 	}
 	cout << endl;
+}
+
+template <class T>
+LinkedList<T>* LinkedList<T>::remove(T item) {
+	if (_head == NULL) return this;
+	for (ListNode<T>* n = _head; n->_next != NULL; n = n->_next) {
+		if (n->_next->_item == item) {
+			n->_next = n->_next->_next;
+			return this;
+		}
+	}
+
+	return this;
 }
 
 }  // namespace cs2040c
