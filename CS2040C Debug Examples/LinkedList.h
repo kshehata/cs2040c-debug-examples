@@ -48,7 +48,7 @@ LinkedList<T>* LinkedList<T>::insertHead(T item) {
 
 template <class T>
 void LinkedList<T>::print() const {
-	cout << "List: ";
+	cout << "List (" << _size << "): ";
 	for (ListNode<T>* n = _head; n != NULL; n = n->_next) {
 		cout << n->_item << ", ";
 	}
@@ -57,6 +57,7 @@ void LinkedList<T>::print() const {
 
 template <class T>
 LinkedList<T>* LinkedList<T>::remove(T item) {
+	--_size;
 	if (_head == NULL) return this;
 	for (ListNode<T>* n = _head; n->_next != NULL; n = n->_next) {
 		if (n->_next->_item == item) {

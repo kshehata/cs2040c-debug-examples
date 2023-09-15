@@ -22,11 +22,11 @@ int main() {
 		->insertHead(13)
 		->insertHead(42)
 		->insertHead(-1);
-	cout << "Should be: -1, 42, 13, 17, 9, " << endl << "     ";
+	cout << "Should be (5): -1, 42, 13, 17, 9, " << endl << "     ";
 	list->print();
 
 	// Step 2: Fix LinkedList so the output below is correct.
-	list->remove(42)->remove(9)->remove(-1);
-	cout << "Should be: 13, 17, " << endl << "     ";
+	list->remove(42)->remove(555)->remove(9)->remove(-1);
+	cout << "Should be (2): 13, 17, " << endl << "     ";
 	list->print();
 }
