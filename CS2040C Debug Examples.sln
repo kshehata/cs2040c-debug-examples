@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS20240C Debug Examples", "CS20240C Debug Examples\CS20240C Debug Examples.vcxproj", "{DEE15520-5033-49AC-8475-2832536E279D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS2040C Debug Examples", "CS2040C Debug Examples\CS2040C Debug Examples.vcxproj", "{EC578544-BBF6-473A-9A4B-ECC33577D739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DEE15520-5033-49AC-8475-2832536E279D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DEE15520-5033-49AC-8475-2832536E279D}.Debug|Win32.Build.0 = Debug|Win32
-		{DEE15520-5033-49AC-8475-2832536E279D}.Release|Win32.ActiveCfg = Release|Win32
-		{DEE15520-5033-49AC-8475-2832536E279D}.Release|Win32.Build.0 = Release|Win32
+		{EC578544-BBF6-473A-9A4B-ECC33577D739}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC578544-BBF6-473A-9A4B-ECC33577D739}.Debug|Win32.Build.0 = Debug|Win32
+		{EC578544-BBF6-473A-9A4B-ECC33577D739}.Release|Win32.ActiveCfg = Release|Win32
+		{EC578544-BBF6-473A-9A4B-ECC33577D739}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

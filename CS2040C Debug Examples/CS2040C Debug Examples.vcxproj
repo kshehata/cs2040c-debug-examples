@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DEE15520-5033-49AC-8475-2832536E279D}</ProjectGuid>
-    <RootNamespace>CS20240CDebugExamples</RootNamespace>
-    <ProjectName>CS2040C Debug Examples</ProjectName>
+    <ProjectGuid>{EC578544-BBF6-473A-9A4B-ECC33577D739}</ProjectGuid>
+    <RootNamespace>CS2040CDebugExamples</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -63,6 +62,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
